@@ -23,7 +23,6 @@
       }
     },
     "metadata": {
-      "displayName": "IBM DB2 Enterprise Server Edition V11.1 on a single virtual machine",
       "providerDisplayName": "Amazon EC2",
       "longDescription": "This template deploys a standalone instance of IBM DB2 Enterprise Server Edition V11.1 on a Linux virtual machine.",
       "bullets": [{
