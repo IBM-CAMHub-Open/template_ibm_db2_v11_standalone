@@ -463,7 +463,7 @@ variable "DB2Node01_root_disk_size" {
 }
 
 module "provision_proxy" {
-  source 						= "git::https://github.com/IBM-CAMHub-Open/terraform-modules.git?ref=1.0//vmware/proxy"
+  source 						= "git::https://github.ibm/IBM-CAMHub-Development/terraform-modules.git?ref=master//vmware/proxy"
   ip                  = "${var.DB2Node01_ipv4_address}"
   id									= "${vsphere_virtual_machine.DB2Node01.id}"
   ssh_user            = "${var.DB2Node01-os_admin_user}"
