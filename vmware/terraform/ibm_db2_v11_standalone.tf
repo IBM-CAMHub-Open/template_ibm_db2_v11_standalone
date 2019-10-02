@@ -809,7 +809,7 @@ EOT
 }
 
 output "DB2Node01_ip" {
-  value = "VM IP Address : ${vsphere_virtual_machine.DB2Node01.clone.0.customize.0.network_interface.0.ipv4_address}"
+  value = "${vsphere_virtual_machine.DB2Node01.clone.0.customize.0.network_interface.0.ipv4_address}"
 }
 
 output "DB2Node01_name" {
